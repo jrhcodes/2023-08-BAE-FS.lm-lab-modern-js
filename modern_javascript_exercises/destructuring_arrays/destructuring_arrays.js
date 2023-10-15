@@ -1,7 +1,8 @@
 // Instructions can be found in destructuring_arrays.md
 
-export function sequence(order) {
+// export function sequence(order) {
   // const [first, second, third ] = [...order];
   // return `${first}, ${second}, ${third}`;
-  return order.join(", ");
-}
+// }
+
+export const  sequence = (order) => order.join(", ");
